@@ -2,7 +2,7 @@ class Solution {
     public boolean carPooling(int[][] trips, int capacity) {
     
         int[] loc = new int[1001];
-        Arrays.fill(loc, 0);
+        
         for(int i=0; i<trips.length; i++){
             int passengers = trips[i][0];
             int from = trips[i][1];
